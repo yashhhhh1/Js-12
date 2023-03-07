@@ -8,7 +8,9 @@
   <title>JS-12</title>
   <link rel="stylesheet" href="style.css" />
   <link href="/home/assets/dist/css/bootstrap.min.css" rel="stylesheet" />
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
 </head>
@@ -37,14 +39,35 @@
           </li>
         </ul>
         <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-          <button class="btn btn-danger">LOG-OUT</button>
+          <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Log
+            Out</button>
         </div>
-
       </div>
-
     </div>
   </nav>
   <!--  -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <h4 class="modal-title">Javascript-12 </h4>
+        </div>
+        <div class="modal-body">
+          <p style="font-size: larger;">Are you sure you want to Log-out&#128546;</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <a href="/login_page/index.html">
+            <button type="button" class="btn btn-danger">Log Out</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
   <div class="container container-content ">
@@ -66,18 +89,21 @@
 
   <!--about as  -->
   <div class="container-fluid about ">
-    <div class="container about-txt">
-      <h1> Javascript12 </h1>
-      <h3>At Contoso, we believe in giving 110%. By using our next-generation data architecture, we help organizations
+    <div class="container about-txt ">
+      <h1 class=" reveal"> Javascript12 </h1>
+      <h3 class=" reveal">At Contoso, we believe in giving 110%. By using our next-generation data architecture, we help
+        organizations
         virtually manage agile workflows. We thrive because of our market knowledge and great team behind our product.
         As our CEO says, "Efficiencies will come from proactively transforming how we do business."
       </h3>
     </div>
   </div>
 
+
+
   <!-- about as -->
 
-<!-- card -->
+  <!-- card -->
   <div class="album py-5 bg-light">
     <div class="container">
       <div class="type-project">
@@ -86,13 +112,13 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
         <!-- 1 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
               <title>api project</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">beginner project</text>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">beginner
+                project</text>
             </svg>
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
@@ -110,7 +136,7 @@
 
         <!-- 2 -->
 
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -133,7 +159,7 @@
         </div>
 
         <!-- 3 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -156,7 +182,7 @@
         </div>
 
         <!-- 4 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -179,7 +205,7 @@
         </div>
 
         <!-- 5 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -203,7 +229,7 @@
 
         <!-- 6 -->
 
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -240,13 +266,13 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
         <!-- 1 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
               <title>api project</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">beginner project</text>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">beginner
+                project</text>
             </svg>
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
@@ -264,7 +290,7 @@
 
         <!-- 2 -->
 
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -287,7 +313,7 @@
         </div>
 
         <!-- 3 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -310,7 +336,7 @@
         </div>
 
         <!-- 4 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -333,7 +359,7 @@
         </div>
 
         <!-- 5 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -357,7 +383,7 @@
 
         <!-- 6 -->
 
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -378,7 +404,7 @@
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
   </div>
@@ -393,13 +419,13 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
         <!-- 1 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
               <title>api project</title>
-              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em">beginner project</text>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">beginner
+                project</text>
             </svg>
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
@@ -412,13 +438,13 @@
                 <i class="fa-light fa-heart"></i>
               </div>
             </div>
-          </div>      
-        </div> 
+          </div>
+        </div>
         <!-- /1  -->
 
-        
+
         <!-- 2 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -442,7 +468,7 @@
         <!-- /2 -->
 
         <!-- 3 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -466,7 +492,7 @@
         <!-- /3 -->
 
         <!-- 4 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -490,7 +516,7 @@
         <!--/4 -->
 
         <!-- 5 -->
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -514,7 +540,7 @@
         <!-- /5 -->
         <!-- 6 -->
 
-        <div class="col">
+        <div class="col reveal">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
               role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -541,7 +567,7 @@
   </div>
 
 
-
+  <script src="script.js"></script>
   <script src="/home/assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
