@@ -1,2 +1,2 @@
 add small projects
-# feneel is going to add projects in this folder
+# yash and feneel is going to add projects in this folder
