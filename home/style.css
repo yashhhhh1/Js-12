@@ -7,11 +7,16 @@
     padding:0;
     font-family: 'Arvo';
   }
-
+/* nav */
+.nav-item{
+  
+  font-size: large;
+  font-weight: 500;
+}
 
   /* animate image and text  */
 .home-img{
-    width: 110%;
+    width: 133%;
     margin-top: 5%;
 }
 .container-content{
@@ -35,19 +40,21 @@
     width:100%;  
     display:flex;
     align-items:center;
-    justify-content:center;
+    justify-content:start;
     text-align:center;
 }
   .main h1{
     text-align:center;
     text-transform: uppercase;
     color: #66c24f; 
-    font-size: 4rem;
+    font-size: 6rem;
+    margin-bottom: 20%;
   }
   
+  
   .roller{
-    height: 4.125rem;
-    line-height: 4rem;
+    height: 6.125rem;
+    line-height: 6rem;
     position: relative;
     overflow: hidden; 
     width: 100%;
@@ -90,26 +97,31 @@
   
 
   /* about as */
-
+.abt{
+  margin-top: 50px;
+  margin-left: 40px;
+}
   .about{
     background: #ffff66;
     height: 150mm;
     position: relative;
   }
   .about-txt{
+    
     background: #fff;
     position: absolute;  
     top: 50%;   
     left: 50%;
     transform: translate(-50%, -50%); 
-    border-radius: 10px;  
+    border-radius: 20px;  
+    height: 45%;
   }
   .about-txt h1{
     font-family: 'Tilt Warp', cursive;
     font-weight: 900;
     color: blue;
     margin: 25px;
-   text-align: end;
+   text-align: center;
   }
   .reveal{
     position: relative;
@@ -121,6 +133,10 @@
   .reveal.active{
     transform: translateY(0);
     opacity:1;
+  }
+  /* Project */
+  .pro-title{
+    margin-bottom: 30px;
   }
 
 
@@ -161,4 +177,3 @@
     }
   }
   }
-

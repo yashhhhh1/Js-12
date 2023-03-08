@@ -16,8 +16,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-light fixed-top  rounded" aria-label="Eleventh navbar example">
-    <!-- fixed-top -->
+  <div class="box fixed-top">
+  <nav class="navbar navbar-expand-lg bg-light rounded"style ="height:80px" aria-label="Eleventh navbar example">
     <div class="container-fluid">
       <a class="navbar-brand col-lg-3 me-0 logo" href="#"><img src="/images/logo.png" alt="img" width="200PX"
           height="45PX" /></a>
@@ -32,10 +32,10 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link active" href="#aboutus">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link active" href="#">Link</a>
           </li>
         </ul>
         <div class="d-lg-flex col-lg-3 justify-content-lg-end">
@@ -45,6 +45,7 @@
       </div>
     </div>
   </nav>
+</div>
   <!--  -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -77,7 +78,7 @@
             <span id="rolltext">fun<br />
               with<br />
               javascript<br />
-              <span id="spare-time">too much spare time?</span><br />
+              <!-- <span id="spare-time">too much spare time?</span><br /> -->
           </div>
         </h1>
       </div>
@@ -88,13 +89,13 @@
   </div>
 
   <!--about as  -->
-  <div class="container-fluid about ">
+  <div class="container-fluid about " id="aboutus">
+    <h1 class="reveal abt">ABOUT US:</h1>
     <div class="container about-txt ">
       <h1 class=" reveal"> Javascript12 </h1>
-      <h3 class=" reveal">At Contoso, we believe in giving 110%. By using our next-generation data architecture, we help
-        organizations
-        virtually manage agile workflows. We thrive because of our market knowledge and great team behind our product.
-        As our CEO says, "Efficiencies will come from proactively transforming how we do business."
+      <h3 class=" reveal">&#x2022; “JS12”. A platform that contains “JAVASCRIPT REST API” Projects that helps beginners to learn and make projects using “HTML”, “CSS”, and “JAVASCRIPT”.
+      </h3>
+      <h3 class="reveal">&#x2022; This platform will help beginners to built Front-end projects which uses “REST API”.
       </h3>
     </div>
   </div>
@@ -107,7 +108,7 @@
   <div class="album py-5 bg-light">
     <div class="container">
       <div class="type-project">
-        <h1>project</h1>
+        <h1 class="reveal pro-title">Beginners Projects</h1>
       </div>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
@@ -261,7 +262,7 @@
   <div class="album py-5 bg-light">
     <div class="container">
       <div class="type-project">
-        <h1>project</h1>
+        <h1 class="reveal pro-title">Intermediate Projects</h1>
       </div>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
@@ -414,7 +415,7 @@
   <div class="album py-5 bg-light">
     <div class="container">
       <div class="type-project">
-        <h1>project</h1>
+        <h1 class="reveal pro-title">Advance Projects</h1>
       </div>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
